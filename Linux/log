@@ -1,0 +1,154 @@
+/var/log:
+total 2046
+drwxrwxr-x  1 root              syslog              420 Jun  1 21:50 .
+drwxr-xr-x  1 root              root                200 Jun  1 21:50 ..
+lrwxrwxrwx  1 root              root                 39 Feb 15 14:09 README -> ../../usr/share/doc/systemd/README.logs
+-rw-r--r--  1 root              root              24670 Feb 15 14:59 alternatives.log
+-rw-r-----  1 root              adm                   0 Jun  1 21:50 apport.log
+drwxr-xr-x  1 root              root                100 Jun  1 22:00 apt
+-rw-r-----  1 syslog            adm               10372 Jun  1 22:17 auth.log
+-rw-------  1 root              root              14428 Jun  1 21:50 boot.log
+-rw-r--r--  1 root              root             118497 Feb 15 14:09 bootstrap.log
+-rw-rw----  1 root              utmp                  0 Feb 15 14:09 btmp
+-rw-r--r--  1 root              root               2017 Jun  1 21:50 casper.log
+-rw-r--r--  1 root              root               4266 Jun  1 21:52 cloud-init-output.log
+-rw-r-----  1 syslog            adm               50628 Jun  1 21:52 cloud-init.log
+drwxr-xr-x  1 root              root                 60 Jun  1 21:50 cups
+drwxr-xr-x  2 cups-browsed      lpadmin               3 Feb 15 14:14 cups-browsed
+drwxr-xr-x  2 root              root                  3 Jan 31 23:11 dist-upgrade
+-rw-r-----  1 root              adm               53810 Jun  1 21:50 dmesg
+-rw-r--r--  1 root              root            1058780 Jun  1 22:00 dpkg.log
+-rw-r--r--  1 root              root                  0 Feb 15 14:09 faillog
+-rw-r--r--  1 root              root               5010 Feb 15 14:52 fontconfig.log
+drwx--x--x  2 root              gdm                  40 Jun  1 21:50 gdm3
+-rw-r--r--  1 root              root               1477 Jun  1 21:50 gpu-manager.log
+drwxr-xr-x  3 root              root                 26 Feb 15 14:11 hp
+drwxrwx---  4 root              adm                 280 Jun  1 21:58 installer
+drwxr-sr-x+ 1 root              systemd-journal      60 Jun  1 21:50 journal
+-rw-r-----  1 syslog            adm               77853 Jun  1 21:59 kern.log
+-rw-rw-r--  1 root              utmp                  0 Feb 15 14:09 lastlog
+drwxr-xr-x  2 root              root                  3 Sep 17  2024 openvpn
+drwx------  2 root              root                  3 Feb 15 14:09 private
+drwx------  2 speech-dispatcher root                  3 Apr  7  2024 speech-dispatcher
+drwxr-x---  2 root              root                  3 Oct 23  2024 sssd
+-rw-r-----  1 syslog            adm              639902 Jun  1 22:17 syslog
+drwxr-xr-x  1 root              root                 60 Jun  1 21:50 sysstat
+drwxr-x---  1 root              adm                  60 Jun  1 21:50 unattended-upgrades
+-rw-rw-r--  1 root              utmp               1536 Jun  1 21:52 wtmp
+
+/var/log/apt:
+total 192
+drwxr-xr-x 1 root root      100 Jun  1 22:00 .
+drwxrwxr-x 1 root syslog    420 Jun  1 21:50 ..
+-rw-r--r-- 1 root root    66352 Jun  1 22:00 eipp.log.xz
+-rw-r--r-- 1 root root   119023 Jun  1 22:00 history.log
+-rw-r----- 1 root adm      1339 Jun  1 22:00 term.log
+
+/var/log/cups:
+total 4
+drwxr-xr-x 1 root root    60 Jun  1 21:50 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+-rw-r----- 1 root adm    336 Jun  1 21:51 access_log
+
+/var/log/cups-browsed:
+total 0
+drwxr-xr-x 2 cups-browsed lpadmin   3 Feb 15 14:14 .
+drwxrwxr-x 1 root         syslog  420 Jun  1 21:50 ..
+
+/var/log/dist-upgrade:
+total 0
+drwxr-xr-x 2 root root     3 Jan 31 23:11 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+
+/var/log/gdm3:
+total 0
+drwx--x--x 2 root gdm     40 Jun  1 21:50 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+
+/var/log/hp:
+total 0
+drwxr-xr-x 3 root root    26 Feb 15 14:11 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+drwxrwxr-x 2 root lp       3 Mar 31  2024 tmp
+
+/var/log/hp/tmp:
+total 0
+drwxrwxr-x 2 root lp    3 Mar 31  2024 .
+drwxr-xr-x 3 root root 26 Feb 15 14:11 ..
+
+/var/log/installer:
+total 320
+drwxrwx--- 4 root   adm       280 Jun  1 21:58 .
+drwxrwxr-x 1 root   syslog    420 Jun  1 21:50 ..
+drwxr-xr-x 2 root   root       80 Jun  1 21:52 block
+-rw-r--r-- 1 root   root    51200 Jun  1 21:58 curtin-errors.tar
+drwxr-xr-x 2 root   root      100 Jun  1 21:58 curtin-install
+-rw-r--r-- 1 root   root    18903 Jun  1 21:58 curtin-install.log
+lrwxrwxrwx 1 root   root       31 Jun  1 21:52 subiquity-server-debug.log -> subiquity-server-debug.log.4509
+-rw------- 1 root   root   167938 Jun  1 21:59 subiquity-server-debug.log.4509
+lrwxrwxrwx 1 root   root       30 Jun  1 21:52 subiquity-server-info.log -> subiquity-server-info.log.4509
+-rw------- 1 root   root    13054 Jun  1 21:59 subiquity-server-info.log.4509
+-rw------- 1 root   root     3116 Jun  1 21:58 subiquity-traceback.txt
+-rw-rw-r-- 1 ubuntu ubuntu    460 Jun  1 21:57 telemetry
+lrwxrwxrwx 1 ubuntu ubuntu     44 Jun  1 21:51 ubuntu_bootstrap.log -> /var/log/installer/ubuntu_bootstrap.log.3711
+-rw-rw-r-- 1 ubuntu ubuntu  53769 Jun  1 21:58 ubuntu_bootstrap.log.3711
+
+/var/log/installer/block:
+total 56
+drwxr-xr-x 2 root root    80 Jun  1 21:52 .
+drwxrwx--- 4 root adm    280 Jun  1 21:58 ..
+-rw-r--r-- 1 root root 24540 Jun  1 21:58 discover.log
+-rw-r--r-- 1 root root 29589 Jun  1 21:55 probe-data.json
+
+/var/log/installer/curtin-install:
+total 12
+drwxr-xr-x 2 root root  100 Jun  1 21:58 .
+drwxrwx--- 4 root adm   280 Jun  1 21:58 ..
+-rw------- 1 root root  472 Jun  1 21:58 subiquity-curtin-apt.conf
+-rw------- 1 root root  340 Jun  1 21:58 subiquity-initial.conf
+-rw------- 1 root root 1066 Jun  1 21:58 subiquity-partitioning.conf
+
+/var/log/journal:
+total 0
+drwxr-sr-x+ 1 root systemd-journal  60 Jun  1 21:50 .
+drwxrwxr-x  1 root syslog          420 Jun  1 21:50 ..
+drwxr-sr-x+ 2 root systemd-journal  80 Jun  1 21:50 4f1b98cbe9c04456863423e210e99ac6
+
+/var/log/journal/4f1b98cbe9c04456863423e210e99ac6:
+total 16384
+drwxr-sr-x+ 2 root systemd-journal      80 Jun  1 21:50 .
+drwxr-sr-x+ 1 root systemd-journal      60 Jun  1 21:50 ..
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  1 22:17 system.journal
+-rw-r-----+ 1 root systemd-journal 8388608 Jun  1 22:17 user-1000.journal
+
+/var/log/openvpn:
+total 0
+drwxr-xr-x 2 root root     3 Sep 17  2024 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+
+/var/log/private:
+total 0
+drwx------ 2 root root     3 Feb 15 14:09 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+
+/var/log/speech-dispatcher:
+total 0
+drwx------ 2 speech-dispatcher root     3 Apr  7  2024 .
+drwxrwxr-x 1 root              syslog 420 Jun  1 21:50 ..
+
+/var/log/sssd:
+total 0
+drwxr-x--- 2 root root     3 Oct 23  2024 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+
+/var/log/sysstat:
+total 8
+drwxr-xr-x 1 root root     60 Jun  1 21:50 .
+drwxrwxr-x 1 root syslog  420 Jun  1 21:50 ..
+-rw-r--r-- 1 root root   6676 Jun  1 22:10 sa01
+
+/var/log/unattended-upgrades:
+total 0
+drwxr-x--- 1 root adm     60 Jun  1 21:50 .
+drwxrwxr-x 1 root syslog 420 Jun  1 21:50 ..
+-rw-r--r-- 1 root root     0 Jun  1 21:50 unattended-upgrades-shutdown.log
